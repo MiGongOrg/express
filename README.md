@@ -12,8 +12,7 @@
 ```
 npm install
 ```
-
-⚠️ 如果已全局安装 `nodemon` 可以忽略 `npm install`
+---
 
 ```
 npm run start
