@@ -7,17 +7,17 @@
 - [mongoose](https://github.com/Automattic/mongoose)
 - [dot](https://github.com/olado/doT)
 
-## 如何使用
+## Start
 
+Install dependencies:
 ```
 npm install
 ```
+Start the server:
+```
+npm start
+```
 ---
-
-```
-npm run start
-```
-
 [http://localhost:3000/todo](http://localhost:3000/todo)
 
 ## Other
