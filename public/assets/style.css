@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+body {
+  background-color: #ccc;
+}
+.container {
+  background-color: #fff;
+  width: 300px;
+  margin: 0 auto;
+}
+.form {
+  display: flex;
+}
+#item, #add {
+  border: 1px solid #333;
+}
+#item {
+  width: 100%;
+  padding: 0 5px;
+}
+#add {
+  width: 100px;
+  height: 30px;
+  border-left: none;
+}
+.del {
+  height: 30px;
+  border-bottom: 1px solid #ccc;
+  line-height: 30px;
+  padding: 0 5px;
+}
+.del:hover {
+  cursor: pointer;
+  text-decoration: line-through;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>Todo</title>
+  <link rel="stylesheet" type="text/css" href="/assets/style.css">
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <script src="/assets/todo.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="form">
+      <input id="item" type="text" placeholder="add item...">
+      <button id="add">Add</button> 
+    </div>
+    <ul>
+      {{~ it.data: obj }}
+      <li class="del">{{= obj.item }}</li>
+      {{~}}
+    </ul>
+  </div>
+</body>
+</html>
